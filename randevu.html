@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<title></title>
+<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="custom.css" >
+<link rel="stylesheet" href="login.css" >
+
+
+</head>
+<body>
+
+
+<div class="header">
+<a href="index.html"> <h1><img src="dicleresimler/logo.png"/></h1></a>
+</div>
+
+<div class="navbar">
+	<ul>
+	    <li><a href="index.html">Anasayfa</a></li>
+	    <li><a href="#">Kurumsal</a></li>
+		<li><a href="#">Birimlerimiz</a>
+		 <ul>
+		    <li><a href="#">Başhekimlik</a></li>
+			<li><a href="#">Başmüdürlük</a></li>
+			<li><a href="#">Başhemşirelik</a></li>
+			<li><a href="#">Kliniklerimiz</a></li>
+		  </ul>
+		</li>
+	    <li><a href="#">E-Hastane</a>
+		  <ul>
+			<li><a href="#">E-Başvuru</a></li>
+			<li><a href="randevu.html">E-Randevu</a></li>
+			<li><a href="#">E-Sonuç</a></li>
+		  </ul>
+		  </li>
+		<li><a href="#">Doktorlarımız</a></li>
+	    <li><a href="#">İletişim</a></li>
+	</ul>
+
+</div>
+<div class="content" >
+    <div class="arkaplan">
+     <div class="randevuform">
+     <div class="row ">
+
+            
+	 
+                <div style="background-color:#fff; border-radius:100px; margin-top:50px;" class="panel-body">
+                <form class="form" action="netting/islem.php" method="POST">
+                        <hr />
+                        <center><h3><B>RANDEVU AL</B></h3></center>
+                         
+                        <br/>
+                        <div class="formbtn">
+                            <span class="input-group-addon"><i class="fa fa-tag"  ></i></span>
+                            <div class="wrap" data-validate = "Lütfen TC Kimlik Numaranızı Giriniz.">
+                              <input class="form-control" type="text" name="numberid" placeholder="TC Kimlik No">
+                            </div>
+                        </div>
+                        <div class="formbtn">
+                            <span class="input-group-addon"><i class="fa fa-lock"  ></i></span>
+                            <div class="wrap" data-validate = "Lütfen Telefon Numaranızı Giriniz.">
+                                  <input class="form-control" type="Tel" name="phonenumner" placeholder="Telefon Numaranız">
+                         
+                           </div>
+                      
+                       
+                        </div>
+						      <button type="submit" name="loggin" class="btn btn-primary" >RANDEVU AL</button>
+                     <hr />
+                     
+                </form>
+             </div>
+						
+						
+						
+						
+
+	        
+			</div>
+     </div>
+    </div>
+</div>
+<div class="footer">
+<span>Dicle Üniversitesi Tıp Fakültesi | 2020 Tüm hakları saklıdır.</span>
+
+</div>
+</body>
+</html>

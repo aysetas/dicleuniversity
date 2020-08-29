@@ -1,0 +1,58 @@
+.arkaplan{
+	background-attachment:fixed;
+	opacity:0.9;
+}
+.content{
+	margin:10px;
+	margin-left:60px;
+	background-image:url("dicleresimler/saglik.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+	
+	padding-top:150px;
+	padding-bottom:90px;
+	
+}
+
+
+.row{
+	text-align:center;
+	border:1px solid #fff;
+	width:35%;
+	padding:5px;
+	background:#fff;
+	margin:5px 10px 10px 200px;
+	padding-top:0px;
+	margin-top:0px;
+	border-radius:100px;
+}
+.row form{
+	padding:30px;
+	margin:10px;
+	border:1px solid #fff;
+	border-radius:100px;
+}
+.row h3 B{
+	font-size:30px;
+}
+.form-control{
+	width:300px;
+	padding:10px;
+	margin:5px;
+    border-radius:5px;
+	border:1px solid #ccc;
+	
+}
+.row button{
+	background:#007fff;
+	border-radius:5px;
+    padding:10px;
+	margin:5px;
+	width:320px;
+	border:1px solid #ccc;
+}
+.row button:hover{
+	background:#005fbf;
+	transition:all.5s ease-in-out;
+}
